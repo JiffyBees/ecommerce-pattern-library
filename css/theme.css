@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #6770B7;
+  --color-primary-light: #C8CCF5;
+  --color-secondary: #2C3158;
+  --color-accent: #5F68A7;
+  --color-dark: #1A1D38;
+  --color-shader: #8691ED;
+
+
+  --font-primary: canada-type-gibson, sans-serif;
+  --font-secondary: bely, serif;
+}
+
+html {
+    font-family: var(--font-primary);
+}
