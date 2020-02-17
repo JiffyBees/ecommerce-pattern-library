@@ -1,0 +1,61 @@
+.card {
+  max-width: 24em;
+  border-radius: var(--border-radius);
+}
+
+.card-long {
+  max-width: 42em;
+  min-width: 36em;
+}
+
+.action-card {
+  border-radius: .6em;
+  overflow: hidden;
+  box-shadow: 0 .1em .4em rgba(0, 0, 0, .5);
+}
+
+.card-back {
+  color: #fff;
+}
+
+.header-weight {
+  font-weight: 100;
+}
+
+.price-weight {
+  font-weight: 500;
+}
+
+.content {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.a-tag {
+  color: #fff;
+  font-family: var(--font-primary);
+}
+
+.a-tag:hover {
+  color: var(--color-shader);
+  font-family: var(--font-primary);
+}
+
+.posito {
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.backg-dark {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.link-0 {
+  font-family: var(--font-primary);
+  list-style-type: none;
+}
+
+.back-col {
+  background-color: var(--color-primary-light);
+}

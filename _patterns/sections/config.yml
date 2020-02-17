@@ -1,0 +1,10 @@
+title: "Sections"
+description: |
+  Sections should be used for content specific information. Navigations, images, and secondary items are key items in this category.
+background: "--color-primary-light"
+
+patterns:
+  nav:
+    title: "Nav"
+    description: |
+      Default to using the basic button. It should be used in front of light backgrounds.

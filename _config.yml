@@ -1,5 +1,21 @@
 permalink: pretty
 theme: jekyll_patternbot
-
 patternbot:
+  title: "Cozy Bookstore"
+  description: |
+    An eccomerce website for books, games, electronics, and household appliances. Our focus is on comfort items for the average middle age to young adult.
   font_url: "https://use.typekit.net/epr5kfn.css"
+  colors:
+    background: "--color-white"
+    accent: "--color-secondary"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    typefaces.primary: |
+      Gibson is used for the header because of its very rounded sans shape matching the style of the website.
+    typefaces.secondary: |
+      bely was chosen as the secondary because it is the main font for the company logo. It is only used for highlighting.
+    colors.primary: |
+      The primary colours were chosen for there high contrast with low saturation, compared to the accent and shader.
+    colors.secondary: |
+      The secondary colour were chosen for there high contrast between the primary, standing out in footers and some side content buttons. They are supposed to represent evening colours when people have time to get more comfortable.

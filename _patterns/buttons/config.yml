@@ -1,0 +1,26 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons bacause they should be the primary call-to-action for a screen.
+background: "--color-primary-light"
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should be used in front of light backgrounds.
+  ghost:
+    title: "Ghost"
+    description: |
+      Default body text button. It should be used in front of homepage.
+  white:
+    title: "White"
+    description: |
+      Used for only the product list page.
+  light:
+    title: "Light"
+    description: |
+      Used for main banner and cards.
+  account:
+    title: "Account"
+    description: |
+      Only used for the headers. links to account and funds.

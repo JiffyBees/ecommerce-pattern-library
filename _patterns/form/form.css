@@ -1,0 +1,37 @@
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
+
+.action-card {
+  border-radius: .6em;
+  overflow: hidden;
+  box-shadow: 0 .1em .4em rgba(0, 0, 0, .5);
+}
+
+.corner-r {
+  border-radius: .6em;
+}

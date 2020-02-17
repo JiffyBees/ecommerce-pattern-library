@@ -1,10 +1,13 @@
 :root {
-  --color-primary: #6770B7;
+  --color-primary: #485199;
   --color-primary-light: #C8CCF5;
   --color-secondary: #2C3158;
-  --color-accent: #5F68A7;
-  --color-dark: #1A1D38;
-  --color-shader: #8691ED;
+  --color-accent: #515994;
+  --color-accent-hover: #3B3B63;
+  --color-accent-light: #6770B7;
+  --color-secondary-dark: #1A1D38;
+  --color-shader: #8588CC;
+  --color-white: #fff;
 
 
   --font-primary: canada-type-gibson, sans-serif;
@@ -13,4 +16,41 @@
 
 html {
     font-family: var(--font-primary);
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+}
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-accent);
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
+
+dt {
+  font-weight: 500;
+}
+
+li {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 600;
+}
+
+b {
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
 }
