@@ -1,4 +1,9 @@
 .pad-s {
+  padding-right: .5em;
+  padding-left: .5em;
+}
+
+.pad-m {
   padding-right: 2em;
   padding-left: 2em;
 }
@@ -26,18 +31,19 @@
     display: block;
   }
 
-
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 65em) {
 
   .hidden-3 {
     display: block;
   }
 
-
 }
 
+.padding-he {
+  padding-right: 6em;
+}
 
 #primary_nav_wrap
 {
