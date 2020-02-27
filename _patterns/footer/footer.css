@@ -2,10 +2,49 @@
   font-weight: 200;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .text-cent {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .text-par {
     text-align: left;
   }
 
+}
+
+@media only screen and (min-width: 60em) {
+
+  .item-left {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 10em) {
+
+  .display-bow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .display-naw {
+    display: none;
+  }
+
+  .display-saw {
+    display: block;
+  }
+
+}
+
+.align-cit {
+  align-content: flex-end;
 }

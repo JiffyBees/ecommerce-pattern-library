@@ -1,5 +1,35 @@
-<header>
-    <img class="img-flex" src="/images/cards/logo.jpg" alt="">
-    {% pattern buttons/account %}
-    {% pattern form/form-search %}
-</header>
+
+<div class="grid">
+  <a href="#"><i class="unit xs-1-2 icon i-24 gutter-1-2"><svg><use xlink:href="/images/icons.svg
+#burger"></use></svg></i></a>
+  <a href="#"><i class="unit xs-1-2 icon i-24 gutter-1-2"><svg><use xlink:href="/images/icons.svg#search"></use></svg></i></a>
+
+  <div class="unit xs-1-4">
+    <img class="img-flex push-r-0 max-wm" src="/images/cards/logo.jpg" alt="">
+  </div>
+
+  <a href="#"><i class="unit xs-1-4 icon i-24 gutter-1-2"><svg><use xlink:href="/images/icons.svg#location"></use></svg></i></a>
+  <a href="#"><i class="unit xs-1 icon i-24 gutter-1-2"><svg><use xlink:href="/images/icons.svg#cart"></use></svg></i></a>
+</div>
+
+<div class="grid">
+  <header class="hidden-3 hidden-2">
+    <div class="unit m-1-4">
+      <img class="img-flex push-r-0 max-wm" src="/images/cards/logo.jpg" alt="">
+    </div>
+
+    <div class="pad-t unit m-3-4">
+      <div class="unit m-1-8 gutter">
+        {% pattern buttons/account %}
+      </div>
+      <div class="unit m-2-4">
+        {% pattern form/form-search %}
+      </div>
+
+      <a href="#"><i class="icon i-24 gutter-1-2"><svg><use xlink:href="/images/icons.svg#location"></use></svg></i></a>
+      <a href="#"><i class="icon i-24 gutter-1-2"><svg><use xlink:href="/images/icons.svg#cart"></use></svg></i></a>
+    </div>
+  </header>
+</div>
+
+{% pattern sections/nav-header %}
