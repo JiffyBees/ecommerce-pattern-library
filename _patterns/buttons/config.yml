@@ -20,6 +20,14 @@ patterns:
     title: "Light"
     description: |
       Used for main banner and cards.
+    fields:
+      - name: text
+        type: string
+        example: "View Now"
+      - name: url
+        type: url
+        example: "/product/"
+
   account:
     title: "Account"
     description: |

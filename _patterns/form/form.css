@@ -65,3 +65,7 @@
   }
 
 }
+
+.search input {
+  height: auto;
+}

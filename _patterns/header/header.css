@@ -1,4 +1,77 @@
 .max-wm {
-width: 60%;
-min-width: 10em;
+  width: 50%;
+  min-width: 8em;
+  max-width: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.max-warp {
+  width: 50%;
+  min-width: 8em;
+  max-width: 10em;
+}
+
+.pad-l {
+  padding-left: 1em;
+}
+
+.header-ico {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .hide-small {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 10em) {
+
+  .hide-small {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide-large {
+    display: none;
+  }
+
+  .show-hide {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .show-large {
+    display: block;
+  }
+
+  .hide-extra-l {
+    display: none;
+  }
+
+}
+
+.center-it {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }

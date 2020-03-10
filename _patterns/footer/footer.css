@@ -2,6 +2,13 @@
   font-weight: 200;
 }
 
+@media only screen and (min-width: 10em) {
+
+  .display-bow {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 25em) {
 
   .text-cent {
@@ -18,19 +25,12 @@
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 32em) {
 
-  .item-left {
-    text-align: left;
-  }
-
-}
-
-@media only screen and (min-width: 10em) {
-
-  .display-bow {
+  .display-header {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -43,8 +43,12 @@
     display: block;
   }
 
-}
+  .center-right0 {
+    text-align: right;
+  }
 
-.align-cit {
-  align-content: flex-end;
+    .item-left {
+      text-align: left;
+    }
+
 }

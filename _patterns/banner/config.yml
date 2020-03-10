@@ -1,0 +1,29 @@
+patterns:
+  banner:
+    feilds:
+      - name: heading
+        type: string
+        example: "Shop Now"
+      - name: text
+        type: string
+        example: "Comfort items at the click of a button, 1000’s of items available."
+      - name: heading
+        type: string
+        example: "Books"
+      - name: text
+        type: string
+        example: "See all the wonderful Books we have avalible for you."
+      - name: banner
+        type: string
+        example: "banner-1"
+      - name: banner
+        type: string
+        example: "banner-2"
+      - name: button_text
+        type: string
+        example: "View Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/product/"
+        required: false

@@ -8,6 +8,11 @@
   min-width: 36em;
 }
 
+.card-extra-long {
+  max-width: 60em;
+  min-width: 56em;
+}
+
 .action-card {
   border-radius: .6em;
   overflow: hidden;
@@ -58,4 +63,8 @@
 
 .back-col {
   background-color: var(--color-primary-light);
+}
+
+.line-col {
+  border-color: var(--color-primary);
 }

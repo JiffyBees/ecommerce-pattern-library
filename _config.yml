@@ -19,3 +19,15 @@ patternbot:
       The primary colours were chosen for there high contrast with low saturation, compared to the accent and shader.
     colors.secondary: |
       The secondary colour were chosen for there high contrast between the primary, standing out in footers and some side content buttons. They are supposed to represent evening colours when people have time to get more comfortable.
+  layouts:
+    default: the default layout should be used for almost every page.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

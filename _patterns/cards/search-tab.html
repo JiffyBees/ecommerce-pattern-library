@@ -2,62 +2,83 @@
 <div class="island">
   <div>
     <img class="img-flex" src="https://placehold.it/240x240" alt="">
-    </div>
-      <div>
-      <h2 class="pad-t-1-2 push-0 pad-b-1-2 nina text-center">Books</h2>
-        <hr class="push-0">
+  </div>
+  <div>
+    <h2 class="pad-t-1-2 push-0 pad-b-1-2 nina text-center">Books</h2>
+    <hr class="push-0 line-col">
     <div class="island text-center">
       <h3 class="push-0">Fiction Section</h3>
       <p class="push-0">Discover our selection of fictional books to encourage imagination and Creativity</p>
     </div>
-      <nav>
-        <ul>
-          <li>
-            <a class="link-0" href="#">Kids Books</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Graphic Novels</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Cook Books</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Magazines</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Teen Books</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Romance Novels</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Horror Stories</a>
-          </li>
-          <hr>
-          <li>
-            <a class="link-0" href="#">Light Novels</a>
-          </li>
-          <hr>
-        </ul>
-      </nav>
-      <form class="unit xs-1 s-1 push-0 island back-col">
-        <div class="grid grid-middle">
-          <div class="search-label unit xs-1 s-1 m-1 gutter-1-2 sub-h-b">
-            <label for="search">Email Address</label>
-          </div>
-          <div class="unit xs-1 s-1 m-1 gutter-1-2">
-            <input class="search-input" type="search" id="search">
-          </div>
-          <div class="unit xs-1 s-1 m-1 gutter-1-2 pad-t-1-2 pad-b-1-2">
-            <button class="search-btn btn w-1" type="submit">Subscribe</button>
-          </div>
-        </div>
-      </form>
+    <nav class="gutter">
+      <ul class="list-group">
+        <li>
+          <a class="link-0 font-change" href="#">Kids Books</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Graphic Novels</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Cook Books</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Magazines</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Teen Books</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Romance Novels</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Horror Stories</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Light Novels</a>
+        </li>
+        <hr class="pad-b">
+      </ul>
+    </nav>
+
+    <hr class="line-col">
+
+    <div class="pad-b gutter text-center">
+      <h3 class="push-0">Non Fiction Section</h3>
+      <p class="push-0">Discover our selection of Non fictional books to encourage learning and discovery.</p>
     </div>
+    <nav class="gutter">
+      <ul class="list-group">
+        <li>
+          <a class="link-0 font-change" href="#">Travel Books</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Dictonaries</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Biographies</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Historical Novels</a>
+        </li>
+        <hr>
+        <li>
+          <a class="link-0 font-change" href="#">Science Books</a>
+        </li>
+        <hr class="pad-b">
+      </ul>
+    </nav>
+    <form class="unit xs-1 s-1 push-0 island back-col">
+      {% pattern form/form-search %}
+    </form>
   </div>
+</div>
