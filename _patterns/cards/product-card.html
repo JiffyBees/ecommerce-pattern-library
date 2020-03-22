@@ -1,0 +1,12 @@
+<div class="island">
+  <div class="card chop action-card">
+    <img class="img-flex" src="{{include.data.image-small}}" alt="">
+    <div class="pad-b gutter pad-t-1-2">
+      <h3 class="card-title mega push-0 header-weight">{{include.data.name}}</h3>
+      <p class="push-0 milli pad-1-2 header-weight"> by {{include.data.author}}</p>
+      <p class="push-0 micro">Available in stores & online</p>
+      <p class="push-1-2 price-weight">Price: ${{include.data.price}}</p>
+      {% pattern buttons/ghost url=include.data.url %}
+    </div>
+  </div>
+</div>
