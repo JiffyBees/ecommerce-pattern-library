@@ -1,4 +1,4 @@
 ---
-sale: "/images/cards/baby-yoda.jpg"
-tag: "From the ashes"
+image: "/images/sale-card/baby-yoda.jpg"
+tag: "Baby Yoda"
 ---
