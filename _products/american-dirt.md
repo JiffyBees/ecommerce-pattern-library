@@ -1,5 +1,5 @@
 ---
-image: "/images/cards/book-6-small.jpg"
+image: "/images/cards/book-6.jpg"
 image-small: "/images/cards/book-6-small.jpg"
 name: "American Dirt"
 description: |

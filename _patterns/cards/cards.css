@@ -36,6 +36,10 @@
   color: #fff;
 }
 
+.content-bot {
+  background-color: var(--color-secondary);
+}
+
 .background-highlight {
   background-color: var(--color-secondary);
 }

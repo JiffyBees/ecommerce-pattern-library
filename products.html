@@ -3,10 +3,20 @@ layout: default
 ---
 
 {% pattern banner/banner banner="banner-2" heading="Books" text="See all the wonderful Books we have avalible for you."%}
-<div class="grid gutter-1-4">
+
+{% pattern cards/search-tab %}
+
+{% pattern cards/tab-look %}
+
+{% pattern cards/tab-look %}
+
+
+<div class="island">
+<div class="grid gutter-1-4 action-card">
   {% for product in site.products %}
-  <div class="unit [ xs-1 s-1-2 m-1-3 ] island-1-4">
+  <div class="unit [ xs-1 s-1-2 m-1-3 l-1-4 ] island-1-4">
     {% pattern cards/product-card data=product %}
   </div>
   {% endfor %}
+</div>
 </div>
