@@ -1,0 +1,52 @@
+title: "Form"
+description: |
+  Forms should be used for input feilds such as newsletters questions and checkout. They should be linked to an input button.
+patterns:
+  form-email-wide:
+    title: "Email Address"
+    description: |
+      Form for email address.
+  form-postal:
+    title: "Postal Code"
+    description: |
+      Form for postal code.
+  form-phone-n:
+    title: "Phone Number"
+    description: |
+      Form for phone number.
+  form-birth:
+    title: "Birth date"
+    description: |
+      Form for birth date.
+  form-email:
+    title: "Email Small"
+    description: |
+      Form for reduce email.
+  form-footer:
+    title: "Footer Forms"
+    description: |
+      Form for footer code used on everypage of newsletter.
+  form-search:
+    title: "Search Bar"
+    description: |
+      Search bar for header and products search bar.
+  form-search:
+    title: "Search Bar"
+    description: |
+      Search bar for header and products search bar.
+  form-name:
+    title: "Name"
+    description: |
+      Form for Name.
+  form-country:
+    title: "Countries"
+    description: |
+      Form for country.
+  form-terms:
+    title: "Terms of Service"
+    description: |
+      Form for terms of service.
+  form-city:
+    title: "City"
+    description: |
+      Form for location.

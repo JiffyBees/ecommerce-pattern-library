@@ -1,0 +1,20 @@
+title: "Leftovers"
+description: |
+  Items that do not fit other sections but are fundimental on pages.
+patterns:
+  app-button:
+    title: "App Button"
+    description: |
+      Used on small large screens for computer size to promote the Cozy app.
+  book-line:
+    title: "Title bar"
+    description: |
+      Link to the products page from hompage ment to allow ease of accesibility. Also used on products to make sections.
+  detail:
+    title: "Details & Specs"
+    description: |
+      Used on products details page for the detailed specs of an item, including shipping info.
+  product-detail:
+    title: "Product Details"
+    description: |
+      Used on products details page for basic product details.

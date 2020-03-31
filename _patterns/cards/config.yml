@@ -1,3 +1,7 @@
+title: "Cards"
+description: |
+  Cards should be used for products and image tags. Almost all of these tags are used soley for the products and homepage.
+
 patterns:
   product-card:
     width: 400
@@ -9,3 +13,43 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+  book-icon:
+    title: "Book Icon"
+    description: |
+      Placeholder for the book image refer to product card final card.
+  tab-card-image:
+    title: "Tab Card A Image"
+    description: |
+      A card with not button but link through the image. commonly used in hompage.
+  search-tab:
+    title: "Search Tab"
+    description: |
+      Search hot bar, only for product page.
+  tab-a-card:
+    title: "Loading card"
+    description: |
+      Basic a link card used for high capacity pages and sometimes product page, often for off site promotions.
+  sale-card:
+    title: "Sale Card"
+    description: |
+      Image card with button used on hompage and products page.
+  form-checkout:
+    title: "Form checkout"
+    description: |
+      Used on checkout page wraping around form items.
+  tab-look:
+    title: "Reduced sale card"
+    description: |
+      Image card with no color, used for top of product and homepage top.
+  book-stretch:
+    title: "Book Tab Long"
+    description: |
+      Image used for linking sales brands and ads used on large screen product page.
+  tab-card-button:
+    title: "Button Card"
+    description: |
+      Use on both home and products pages with a changing link.
+  book-wide:
+    title: "Book Tab"
+    description: |
+      Use on both home and products pages with a changing link.

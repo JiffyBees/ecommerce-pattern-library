@@ -27,8 +27,15 @@ patterns:
       - name: url
         type: url
         example: "/product/"
-
   account:
     title: "Account"
     description: |
       Only used for the headers. links to account and funds.
+  send:
+    title: "Send"
+    description: |
+      Default for checkout and large forms. It should be used in front white backgrounds.
+  button-search:
+    title: "Search"
+    description: |
+      Button only used in header and search lines.

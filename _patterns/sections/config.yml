@@ -8,3 +8,15 @@ patterns:
     title: "Nav"
     description: |
       Default to using the basic button. It should be used in front of light backgrounds.
+  nav-contact:
+    title: "Company info"
+    description: |
+      List link section only for the footer, connecting company info. Not visible on small screens.
+  nav-footer:
+    title: "Customer services"
+    description: |
+      List link section only for the footer, connecting customer services. Not visible on small screens.
+  nav-header:
+    title: "Customer services"
+    description: |
+      Link bar for every product page, organized into groups.

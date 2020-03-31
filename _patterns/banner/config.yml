@@ -27,3 +27,7 @@ patterns:
         type: url
         example: "/product/"
         required: false
+  banner:
+    title: "Banner"
+    description: |
+      Placeholder code for banner images.
