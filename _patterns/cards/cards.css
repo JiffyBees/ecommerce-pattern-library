@@ -5,12 +5,15 @@
 
 .card-long {
   max-width: 42em;
-  min-width: 36em;
+  max-height: 16em;
+}
+
+.card-small {
+  max-height: 12em;
 }
 
 .card-extra-long {
-  max-width: 60em;
-  min-width: 56em;
+  max-height: 12em;
 }
 
 .action-card {
@@ -38,6 +41,10 @@
 
 .content-bot {
   background-color: var(--color-secondary);
+}
+
+.content-front {
+  background-color: var(--color-white);
 }
 
 .background-highlight {
