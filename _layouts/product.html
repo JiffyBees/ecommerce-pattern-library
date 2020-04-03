@@ -1,7 +1,24 @@
 ---
 layout: default
 ---
+<div class="island">
+  <img class="action-card" src="{{page.image}}" alt="">
+</div>
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+<div class="text-center">
+  <h1 class="push-0 yotta">{{page.name}}</h1>
+  <p>By: {{page.author}}</p>
+</div>
+
+<hr>
+<p class="detail-font">{{page.print}} | Published: {{page.day}}</p>
+
+<p class="detail-font">{{page.description}}</p>
+
+<p class="push-0">Price: ${{page.price}}</p>
+<p>Available in store and online</p>
+
+<p><strong>Order in the next 21 hours to apply for Prime Shipping</strong></p>
+
+<hr>
+{% pattern leftovers/detail %}

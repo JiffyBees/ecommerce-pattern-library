@@ -7,4 +7,12 @@ description: |
 author: "Delia Owens"
 price: 18
 type: "romance novel"
+day: "Aug 14 2018"
+print: "Hardcover"
+
+publisher: "G.P. Putnam's Sons; 1st edition"
+language: "English"
+ISBN-10: "0735219095"
+ISBN-13: "978-0735219090"
+product-dimensions: "15.6 x 3.3 x 23.6 cm"
 ---

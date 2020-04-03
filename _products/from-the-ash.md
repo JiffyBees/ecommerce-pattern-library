@@ -7,4 +7,12 @@ description: |
 author: "Jesse Thistle"
 price: 20
 type: "memoir"
+day: "Jan 21, 2020"
+print: "Hardcover"
+
+publisher: "Flatiron Books"
+language: "English"
+ISBN-10: "1250209765"
+ISBN-13: "978-1250209764"
+product-dimensions: "16.1 x 3.5 x 24.3 cm"
 ---
