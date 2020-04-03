@@ -10,16 +10,16 @@ layout: default
     </div>
     <div class="unit xs-0 s-0 m-1-2 l-2-3 pad-t gutter">
       <div class="pad-b">
-        {% pattern cards/tab-look %}
+        {% pattern cards/tab-card-button image="/images/sale-card/product-book.jpg" title="Hundreds of Graphic novels for teens and adults" description="Access our wide collection of books available" button_text="View Now" button_url="/products/" url="/products/"%}
       </div>
-      {% pattern cards/tab-look %}
-    </div>
+      {% pattern cards/tab-card-button image="/images/sale-card/non-fiction.jpg" title="Our Reality in none fiction" description="Get engrossed in our none fiction books" button_text="View Now" button_url="/products/" url="/products/"%}
+      </div>
   </div>
 
   <div class="grid">
     <div class="unit xs-1 s-1 m-0 l-0">
-      {% pattern cards/tab-look %}
-      {% pattern cards/tab-look %}
+      {% pattern cards/tab-look image="/images/sale-card/product-book.jpg" title="Hundreds of Graphic novels for teens and adults" description="Access our wide collection of books available" %}
+      {% pattern cards/tab-look image="/images/sale-card/non-fiction.jpg" title="Our Reality in none fiction" description="Get engrossed in our none fiction books" %}
     </div>
   </div>
 
@@ -27,7 +27,7 @@ layout: default
 <div class="grid gutter-1-4 action-card">
   {% for product in site.products %}
   <div class="unit [ xs-1 s-1-2 m-1-3 l-1-4 ] island-1-4">
-    {% pattern cards/product-card data=product %}
+    {% pattern cards/product-card data=product button_text="Add to cart" button_url="/checkout/"%}
   </div>
   {% endfor %}
 </div>
@@ -35,13 +35,19 @@ layout: default
 
 <div class="grid">
   <div class="unit xs-1 s-1 m-0 l-0">
-        {% pattern cards/book-small %}
+        {% pattern cards/book-small image="/images/sale-card/ad-card-small.jpg" %}
   </div>
 </div>
 
 <div class="grid">
-  <div class="unit xs-0 s-0 l-1">
-    {% pattern cards/book-stretch %}
+  <div class="unit xs-0 s-0 m-1 l-0">
+    {% pattern cards/book-stretch image="/images/sale-card/ad-card.jpg" %}
+  </div>
+</div>
+
+<div class="grid">
+  <div class="unit xs-0 s-0 m-0 l-1">
+    {% pattern cards/book-wide image="/images/sale-card/ad-card-wide.jpg" %}
   </div>
 </div>
 
@@ -49,7 +55,7 @@ layout: default
 <div class="grid gutter-1-4 action-card">
   {% for product in site.products %}
   <div class="unit [ xs-1 s-1-2 m-1-3 l-1-4 ] island-1-4">
-    {% pattern cards/product-card data=product %}
+    {% pattern cards/product-card data=product button_text="Add to cart" button_url="/checkout/"%}
   </div>
   {% endfor %}
 </div>
@@ -57,6 +63,49 @@ layout: default
 
 <div class="grid">
   <div class="unit xs-1 s-1 m-0 l-0">
-    {% pattern cards/tab-look %}
+    {% pattern cards/tab-look image="/images/sale-card/kids-books.jpg" title="Kids books" description="learn more with your kids today"%}
   </div>
 </div>
+
+
+<div class="grid">
+  <div class="unit xs-1 s-1 m-0 l-0">
+        {% pattern cards/book-small image="/images/sale-card/ad-card-small.jpg" %}
+  </div>
+</div>
+
+<div class="grid">
+  <div class="unit xs-0 s-0 m-1 l-0">
+    {% pattern cards/book-stretch image="/images/sale-card/ad-card.jpg" %}
+  </div>
+</div>
+
+<div class="grid">
+  <div class="unit xs-0 s-0 m-0 l-1">
+    {% pattern cards/book-wide image="/images/sale-card/ad-card-wide.jpg" %}
+  </div>
+</div>
+
+<div class="island">
+<div class="grid gutter-1-4 action-card">
+  {% for product in site.products %}
+  <div class="unit [ xs-1 s-1-2 m-1-3 l-1-4 ] island-1-4">
+    {% pattern cards/product-card data=product button_text="Add to cart" button_url="/checkout/"%}
+  </div>
+  {% endfor %}
+</div>
+</div>
+
+<div class="grid">
+  <div class="unit xs-0 s-1 m-1-2 gutter pad-b">
+    {% pattern cards/sale-card image="/images/sale-card/mug-sale.jpg" title="10% off all Blankets" button_text="View Now" button_url="/products/" %}
+  </div>
+
+  <div class="unit xs-0 s-1 m-1-2 gutter pad-b">
+    {% pattern cards/sale-card image="/images/sale-card/blanket-sale.jpg" title="20% off all Cups" button_text="View Now" button_url="/products/" %}
+  </div>
+</div>
+
+  <div>
+    {% pattern sections/nav url="/products/" %}
+  </div>

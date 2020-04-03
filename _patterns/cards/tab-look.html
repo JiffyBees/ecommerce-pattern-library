@@ -1,9 +1,11 @@
 <div class="banner">
   <div class="content-bot pad-b-1-2">
-    <img class="img-flex" src="https://placehold.it/480x320" alt="">
-    <div class="island-1-2 text-center content-front">
-      <p class="push-0 pad-t-1-2 price-weight">Thousands of new items we think you will enjoy</p>
-      <p class="push-1-2 milli">Discover our selection of fictional books to encourage adventure.</p>
+    <img class="img-flex" src="{{include.image}}" alt="">
+    <div class="island text-center content-front">
+      <p class="push-0 price-weight">{{include.title}}</p>
+      <p class="push-1-2 milli">{{include.description}}</p>
+
+      {% pattern buttons/light url=include.button_url text=include.button_text %}
     </div>
   </div>
 </div>

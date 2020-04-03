@@ -20,7 +20,7 @@ layout: default
 <div class="grid gutter-1-8">
   {% for product in site.products limit:4 %}
   <div class="unit [ xs-1 s-1-2 m-1-3 l-1-4 ] island-1-4">
-    {% pattern cards/product-card data=product  button_text="Add to Cart" button_url="/products/" %}
+    {% pattern cards/product-card data=product  button_text="See more" button_url="/products/" %}
   </div>
   {% endfor %}
 </div>
@@ -29,7 +29,7 @@ layout: default
 <div class="grid">
   <div class="unit s-1 l-2-3">
     <div class="island">
-      {% pattern cards/tab-card-button image="/images/sale-card/sub-selector.jpg" button_text="View Now" button_url="/products/" url="/products/" %}
+      {% pattern cards/tab-card-button image="/images/sale-card/sub-selector.jpg" title="Thousands of new items we think you will enjoy" description="Discover our selection of fictional books to encourage adventure." button_text="View Now" button_url="/products/" url="/products/" %}
     </div>
   </div>
 
@@ -65,7 +65,7 @@ layout: default
 <div class="grid gutter-1-8">
   {% for product in site.products limit:4 %}
   <div class="unit [ xs-1 s-1-2 m-1-3 l-1-4 ] island-1-4">
-    {% pattern cards/product-card data=product  button_text="Add to Cart" button_url="/products/" %}
+    {% pattern cards/product-card data=product  button_text="See more" button_url="/products/" %}
   </div>
   {% endfor %}
 </div>
