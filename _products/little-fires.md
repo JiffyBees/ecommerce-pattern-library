@@ -1,5 +1,5 @@
 ---
-image: "/images/cards/book-9-small.jpg"
+image: "/images/cards/book-9.jpg"
 image-small: "/images/cards/book-9-small.jpg"
 name: "Little Fires Everywhere"
 description: |
@@ -7,12 +7,12 @@ description: |
 author: "Celeste Ng"
 price: 13
 type: "novel"
-day: "Jan 21, 2020"
+day: "Sep 12, 2017"
 print: "Hardcover"
 
-publisher: "Flatiron Books"
+publisher: "Penguin Press"
 language: "English"
-ISBN-10: "1250209765"
-ISBN-13: "978-1250209764"
-product-dimensions: "16.1 x 3.5 x 24.3 cm"
+ISBN-10: "9780735224292"
+ISBN-13: "978-0735224292"
+product-dimensions: "16 x 2.9 x 23.5 cm"
 ---

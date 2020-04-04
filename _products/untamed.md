@@ -1,5 +1,5 @@
 ---
-image: "/images/cards/book-10-small.jpg"
+image: "/images/cards/book-10.jpg"
 image-small: "/images/cards/book-10-small.jpg"
 name: "Untamed"
 description: |
@@ -7,12 +7,12 @@ description: |
 author: "Glennon Doyle"
 price: 15
 type: "novel"
-day: "Jan 21, 2020"
+day: "March 10, 2020"
 print: "Hardcover"
 
-publisher: "Flatiron Books"
+publisher: "The Dial Press"
 language: "English"
-ISBN-10: "1250209765"
-ISBN-13: "978-1250209764"
+ISBN-10: "1984801252"
+ISBN-13: " 978-1984801258"
 product-dimensions: "16.1 x 3.5 x 24.3 cm"
 ---

@@ -7,12 +7,12 @@ description: |
 author: "Jennie Allen"
 price: 22
 type: "non-fiction"
-day: "Jan 21, 2020"
+day: "April 7, 2020"
 print: "Hardcover"
 
-publisher: "Flatiron Books"
+publisher: "Thomas Nelson"
 language: "English"
-ISBN-10: "1250209765"
-ISBN-13: "978-1250209764"
-product-dimensions: "16.1 x 3.5 x 24.3 cm"
+ISBN-10: "0310116376"
+ISBN-13: "978-0310116370"
+product-dimensions: "7 x 0.5 x 7.9 inches"
 ---

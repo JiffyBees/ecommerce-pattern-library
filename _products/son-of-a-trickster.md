@@ -7,12 +7,12 @@ description: |
 author: "Eden Robinson"
 price: 14
 type: "novel"
-day: "Jan 21, 2020"
+day: "March 13, 2018"
 print: "Hardcover"
 
-publisher: "Flatiron Books"
+publisher: "Vintage Books Canada"
 language: "English"
-ISBN-10: "1250209765"
-ISBN-13: "978-1250209764"
+ISBN-10: "0345810791"
+ISBN-13: "978-0345810793"
 product-dimensions: "16.1 x 3.5 x 24.3 cm"
 ---

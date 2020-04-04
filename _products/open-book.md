@@ -1,5 +1,5 @@
 ---
-image: "/images/cards/book-3-small.jpg"
+image: "/images/cards/book-3.jpg"
 image-small: "/images/cards/book-3-small.jpg"
 name: "Open Book"
 description: |
@@ -7,12 +7,12 @@ description: |
 author: "Jessica Simpson"
 price: 18
 type: "auto biography"
-day: "Jan 21, 2020"
+day: "February 4, 2020"
 print: "Hardcover"
 
-publisher: "Flatiron Books"
+publisher: "Dey Street Books"
 language: "English"
-ISBN-10: "1250209765"
-ISBN-13: "978-1250209764"
-product-dimensions: "16.1 x 3.5 x 24.3 cm"
+ISBN-10: "0062899961"
+ISBN-13: "978-0062899965"
+product-dimensions: "6 x 1.3 x 9 inches"
 ---

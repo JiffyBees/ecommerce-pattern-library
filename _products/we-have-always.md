@@ -7,10 +7,10 @@ description: |
 author: "Samra Habib"
 price: 16
 type: "novel"
-day: "Jan 21, 2020"
+day: "June 4, 2019"
 print: "Hardcover"
 
-publisher: "Flatiron Books"
+publisher: "Viking"
 language: "English"
 ISBN-10: "1250209765"
 ISBN-13: "978-1250209764"
