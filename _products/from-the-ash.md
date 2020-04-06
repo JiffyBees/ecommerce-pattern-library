@@ -1,5 +1,5 @@
 ---
-image: "/images/cards/book-8-small.jpg"
+image: "/images/cards/book-8.jpg"
 image-small: "/images/cards/book-8-small.jpg"
 name: "From The Ashes"
 description: |

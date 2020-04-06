@@ -1,5 +1,5 @@
 ---
-image: "/images/cards/book-2-small.jpg"
+image: "/images/cards/book-2.jpg"
 image-small: "/images/cards/book-2-small.jpg"
 name: "Where The Crawdads Sing"
 description: |
