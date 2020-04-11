@@ -87,3 +87,12 @@
 .padder-form-r {
   padding-right: 1em;
 }
+
+.color-byu {
+  color: var(--color-accent);
+}
+
+.terms-rof {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}

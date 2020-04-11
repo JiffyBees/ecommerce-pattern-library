@@ -1,10 +1,10 @@
 <div class="grid island" aria-details="card slider">
-  <div class="card-small chop action-card">
+  <div class="card-small chop action-card content-front">
 
     <div class="unit xs-1-2 m-1-2 pad-b gutter pad-t-1-2">
-      <p class="push-0 pad-t-1-2 price-weight">Title of area</p>
-      <p class="push-1-4 milli">Discover our selection of fictional books to encourage adventure.</p>
-      {% pattern buttons/light %}
+      <p class="push-0 pad-t-1-2 price-weight">{{include.title}</p>
+      <p class="push-1-4 milli">{{include.text}}</p>
+      {% pattern buttons/light url=include.button_url text=include.button_text%}
     </div>
 
       <div class="unit xs-1-2 m-1-2">
