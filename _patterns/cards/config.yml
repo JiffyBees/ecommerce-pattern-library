@@ -53,3 +53,11 @@ patterns:
     title: "Book Tab"
     description: |
       Use on both home and products pages with a changing link.
+  book-small:
+    title: "Book Small"
+    description: |
+      Use on both home and products pages with a changing link, used at the smallest size.
+  form-check-detail:
+    title: "Checkout Tab"
+    description: |
+      Checkout picture for book, only used on checkout page.
