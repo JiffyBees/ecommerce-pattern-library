@@ -39,3 +39,7 @@ patterns:
     title: "Search"
     description: |
       Button only used in header and search lines.
+  button-group:
+    title: "Product Detail Buttons"
+    description: |
+      Button only used on the products detail page, links to checkout.
